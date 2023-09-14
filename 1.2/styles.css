@@ -1,0 +1,120 @@
+body {
+    font-family: Times New Roman;
+    margin: 0;
+    padding: 0;
+    background-color: #1f1e1e;
+    background-image: url('b1.png'); 
+    background-size: cover; 
+    background-attachment: fixed; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+header {
+    background-color: #000000;
+    color: white;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.ks1 {
+    max-width: 125px; 
+    height: auto;
+    margin-right: -150px; 
+     }
+
+h1 {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 75px;
+    font-family: Impact;
+}
+.nav-cont {
+    display: flex;
+    justify-content: center;
+    background-color: #1f1e1e;
+    color: black;
+    font-family: Times New Roman;
+    padding: 20px 0;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/f/f8/MARPAT_desert_camouflage_swatch%2C_24.55%22.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+    nav a {
+        color: black;
+        text-decoration: none;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+    }
+    nav li {
+        margin-right: 20px;
+    }
+
+    nav img {
+        width: 25px;
+        height: 25px;
+    }
+
+.gallery-section {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.gallery-section img {
+        width: 300px;
+        height: 420px;
+        margin-top: 0 auto;
+}
+
+.container {
+    display: flex; 
+    justify-content: center;
+    align-content: center;  
+   
+
+}
+
+.box {
+    flex: 1; 
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 20px;
+    margin: 10px; 
+    color: white;
+    opacity: 1;
+    font-family: 'Times New Roman';
+    text-align: center;
+    border: 1px solid white;
+}
+
+.highlighted {
+    background-color: black;
+    opacity: 0.8;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 55px;
+    text-align: center;
+    border: 1px solid white;
+    color: white;
+    margin: 0 auto;
+    margin-top: 20px;
+    line-height: 1.5;
+    background-color: rgba(255, 255, 255, 0.2);
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title> 1.6 HTML </title>
+</head>
+<body>
+    <header>
+        <div class="head-cont">
+            <h class="h1"> Розклад пар <br> 18.09 - 23.09</h>
+            <img src="iszzi.png" class="iszi">
+        </div>
+
+    </header>
+    <div class="registration-menu">
+        <ul>
+            <li>
+                <label for="first-name">Ім'я:</label>
+                <input type="text" id="first-name" name="first-name">
+            </li>
+            <li>
+                <label for="last-name">Прізвище:</label>
+                <input type="text" id="last-name" name="last-name">
+            </li>
+            <li>
+                <label for="email">Електронна адреса:</label>
+                <input type="email" id="email" name="email">
+            </li>
+            <li>
+                <label for="password">Пароль:</label>
+                <input type="password" id="password" name="password">
+            </li>
+            <li>
+                <label for="confirm-password">Підтвердження пароля:</label>
+                <input type="password" id="confirm-password" name="confirm-password">
+                <button class="register-button">Зареєструватися</button>
+            </li>
+        </ul>
+    </div>
+
+    <div class="schedule-container">
+        <table class="schedule-table">
+            <thead>
+                <tr>
+                    <th>День тижня</th>
+                    <th>Розклад</th>
+                    <th>День тижня</th>
+                    <th>Розклад</th>
+                </tr>   
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="3"> Понеділок <br> 18.09 </td>
+                    <td class="sem">Правознавство</td>
+                    <td rowspan="4"> Четвер <br> 21.09 </td>
+                    <td> Самостійна робота </td>
+                </tr>
+                <tr>
+                    <td class="lec"> Загальна військова підготовка </td>
+                    <td class="lec"> Правознавство </td>
+                </tr>
+                <tr>
+                    <td class="lab">Програмування</td>
+                    <td class="prac"> Фізичне виховання </td>
+                </tr>
+                <tr>
+                    <td rowspan="3"> Вівторок <br> 19.09 </td>
+                    <td class="prac"> Фізичне виховання </td>
+                    <td class="lec"> Програмування </td>
+                </tr>
+                <tr>
+                    <td class="prac"> Теорія інформації та кодування </td>
+                    <td rowspan="3"> П'ятниця <br> 22.09 </td>
+                    <td class="prac"> Фізичне виховання </td>
+                </tr>
+                <tr>
+                    <td class="prac"> Теорія сигналів </td>
+                    <td class="prac"> Теорія сигналів </td>
+
+                </tr>
+                <tr>
+                    <td rowspan="3"> Середа <br> 20.09 </td>
+                    <td class="prac"> Теле-інформаційні мережі </td>
+                    <td> Самостійна робота </td>
+                </tr>
+                <tr>
+                    <td class="prac"> Теле-інформаційні мережі </td>
+                    <td rowspan="2"> Субота <br> 22.09 </td>
+                    <td class="prac"> Загальна військова підготовка </td>
+                </tr>
+                <tr>
+                    <td class="prac"> Іноземна (англійська) мова </td>
+                    <td class="prac"> Загальна військова підготовка </td>
+
+                </tr>
+                <tr>
+                    <td colspan="4" class="ps"> Примітка: наведись на комірку, щоб дізнатися вид заняття </td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+
+    <div class="info-container">
+        <table class="info-table">
+            <thead>
+                <tr>
+                    <th class="v"> Вид заняття </th>
+                </tr>
+                <tr>
+                    <td class="l    "> Лекція </td>
+                </tr>
+                <tr>
+                    <td class="s"> Семінар </td>
+                </tr>
+                <tr>
+                    <td class="p"> Практичне заняття </td>
+                </tr>
+                <tr>
+                    <td class="lb"> Лабораторна робота </td>
+                </tr>
+                
+
+            </thead>
+        </table>
+    </div>
+</body>
+</html>

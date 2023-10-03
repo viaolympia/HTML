@@ -21,7 +21,8 @@
     border-style: dotted; 
     border-color: #FF0000; 
     border-width: 2px; 
-    border-radius: 10px; 
+    border-radius: 10px;
+    padding: 10px;
 }
 ul{
     list-style-type: none;

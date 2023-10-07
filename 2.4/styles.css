@@ -1,0 +1,13 @@
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: dimgrey;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-family: Times New Roman;
+}
+form{
+    display: list-item;
+}

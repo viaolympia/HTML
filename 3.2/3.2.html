@@ -4,30 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <title>DOM Приклад</title>
+    <title>DOM EXAMPLE</title>
 </head>
 <body>
-    <h1 id="pageTitle">Простий HTML-документ</h1>
+    <h1 id="pageTitle">HTML-DOC</h1>
     <p class="main-paragraph"> JavaScript AND DOM </p>
     <ul>
-        <li>Елемент 1</li>
-        <li>Елемент 2</li>
-        <li>Елемент 3</li>
+        <li>Element 1</li>
+        <li>Element 2</li>
+        <li>Element 3</li>
     </ul>
     
-    <a href="#" id="link"> Посилання </a>
+    <a href="#" id="link"> LINK </a>
 
     <script>
         // Завдання 1: Змінити стиль та текст заголовка
         const pageTitle = document.getElementById('pageTitle');
         pageTitle.style.color = 'blue';
         pageTitle.style.fontSize = '24px';
-        pageTitle.textContent = 'Скрипт зміни тексту та стилю';
+        pageTitle.textContent = 'Scripts changes text';
 
         // Завдання 2: Знайти елементи списку та змінити їх текст
         const listItems = document.querySelectorAll('ul li');
         listItems.forEach((item, index) => {
-            item.textContent = `Елемент ${index + 1} зміненений за допомогою скрипту`;
+            item.textContent = `Element ${index + 1} was changed by JS script`;
         });
 
         // Завдання 3: Навігація по DOM та зміна властивостей
@@ -42,7 +42,7 @@
         // Завдання 4: Додавання обробника подій для посилання
         link.addEventListener('click', function (event) {
             event.preventDefault();
-            alert('Користувач натиснув на посилання');
+            alert('User has clicked on link');
         });
     </script>
 </body>

@@ -1,0 +1,33 @@
+body{
+    background-color: darkslategray;    
+}
+.main-cont{
+    border: 1px solid black;
+    width: 720px;
+    height: 720px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.gorizontal-nav{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    width: 700px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: rgba(128, 128, 128, 0.7);
+}
+.vertical-nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vertical-nav{
+    border: 1px solid black;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    margin-top: 125px;
+    background-color: rgba(128, 128, 128, 0.7);
+}

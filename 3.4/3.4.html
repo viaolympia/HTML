@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JavaScript Tasks Output</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="main">
+    <h1> Результат роботи скрипту </h1>
+
+    <script src="3.4.js"></script>
+    <script>
+        const initialArray = [1, 2, 3, 4, 5];
+        const modifiedArray = modifyArray(initialArray);
+        document.write("<p> Modified Array [Task 1]: " + modifiedArray + "</p>");
+
+        const anotherArray = ["a", "b", "c", "d", "e"];
+        const modifiedArray2 = arrayOperations(anotherArray);
+        document.write("<p> Modified Array [Task 2]: " + modifiedArray2 + "</p>");
+
+        const integerNumber = 5;
+        const floatNumber = 5.5;
+        document.write("<p> Check Integer [Task 3]: " + checkInteger(integerNumber) + "</p>");
+        document.write("<p>Check Integer [Task 3]: " + checkInteger(floatNumber) + "</p>");
+    </script>
+    </div>
+</body>
+</html>

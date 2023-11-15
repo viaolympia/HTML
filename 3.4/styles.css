@@ -1,0 +1,15 @@
+body{
+    background-color: darkslategrey;
+}
+.main {
+    display: block;
+    margin: 0 auto;
+    margin-top: 225px;
+    width: 425px;
+    height: 225px;
+    color: darkslategrey;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid white;
+    background-color: rgba(128, 128, 128, 1);
+}

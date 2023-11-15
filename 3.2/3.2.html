@@ -18,19 +18,19 @@
     <a href="#" id="link"> LINK </a>
 
     <script>
-        // Завдання 1: Змінити стиль та текст заголовка
+        // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ 1: пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
         const pageTitle = document.getElementById('pageTitle');
         pageTitle.style.color = 'blue';
         pageTitle.style.fontSize = '24px';
         pageTitle.textContent = 'Scripts changes text';
 
-        // Завдання 2: Знайти елементи списку та змінити їх текст
+        // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ 2: пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
         const listItems = document.querySelectorAll('ul li');
         listItems.forEach((item, index) => {
             item.textContent = `Element ${index + 1} was changed by JS script`;
         });
 
-        // Завдання 3: Навігація по DOM та зміна властивостей
+        // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ 3: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ DOM пїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
         const link = document.getElementById('link');
         const parentElement = link.parentElement;
         const siblings = Array.from(parentElement.children).filter(el => el !== link);
@@ -39,7 +39,7 @@
         parentElement.style.border = '2px solid green';
         siblings.forEach(sibling => sibling.style.fontWeight = 'bold');
 
-        // Завдання 4: Додавання обробника подій для посилання
+        // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ 4: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
         link.addEventListener('click', function (event) {
             event.preventDefault();
             alert('User has clicked on link');
